@@ -24,7 +24,7 @@ string editingStr(string s) {
 
     string returnedStr = "";
     while (!st.empty()) {
-        returnedStr = st.top() + returnedStr; // عشان ناخدها بالترتيب الصحيح
+        returnedStr = st.top() + returnedStr;
         st.pop();
     }
     return returnedStr;
